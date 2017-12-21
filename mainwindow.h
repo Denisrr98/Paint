@@ -25,7 +25,6 @@ private slots:
     void on_actionThickness_triggered();
     void on_actionColor_triggered();
     void on_actionExit_without_saving_triggered();
-    void on_actionSize_triggered();
 
 private:
     Ui::MainWindow *ui;

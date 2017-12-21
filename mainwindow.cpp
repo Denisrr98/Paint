@@ -71,12 +71,12 @@ void MainWindow::mouseReleaseEvent(QMouseEvent *e)
 
 void MainWindow::on_actionThickness_triggered()
 {
-    mSize = QInputDialog::getInt(this, "Size of pen", "EnterSize:", 5, 1);
+    mSize = QInputDialog::getInt(this, "Size", "Enter the cursor size:", 5, 1);
 }
 
 void MainWindow::on_actionColor_triggered()
 {
-    mColor = QColorDialog::getColor(Qt::black, this, "Color of pen");
+    mColor = QColorDialog::getColor(Qt::black, this, "Enter the cursor color");
 }
 
 void MainWindow::on_actionExit_without_saving_triggered()
